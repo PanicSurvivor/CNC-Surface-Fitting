@@ -17,13 +17,19 @@ Packages:
 - matplotlib
 - PyQt5
 Intallation:
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 ## Run
 ### Option 1 - Run from the source (no install)
-```python src/cnc_surface_fit/app.py```
+```
+python src/cnc_surface_fit/app.py
+```
 ### Option 2 - Use the launcher
-```python -m cnc_surface_fit```
+```
+python -m cnc_surface_fit
+```
 ### Option 3 - Consule command
 ```
 pip install -e "."
